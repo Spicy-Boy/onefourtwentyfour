@@ -1,6 +1,10 @@
 pico-8 cartridge // http://www.pico-8.com
 version 41
 __lua__
+--Aaron's laptop file path: load("/users/Green Office Laptop/Desktop/Game Dev/onefourtwentyfour/onefour24.p8")
+--C:\Users\Green Office Laptop\Desktop\Game Dev\onefourtwentyfour
+-- ^^^ None of that works, idk how to use pico 8 lol
+
 dice={}
 onefour24={1,4,6,6,6,6}
 max_time=120
@@ -83,7 +87,7 @@ function btnpress()
 		counter=max_time
 		runcounter=true
 		delay_counter = 30		
-	end
+	end							
 end
 -->8
 --draw
