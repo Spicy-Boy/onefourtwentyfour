@@ -98,6 +98,7 @@ function draw()
 	print("delay: "..delay_counter,7)
 	print("counter: "..counter,7)	
 	print("--dice--")
+	print("uwu")
 	
 	for i=1,6 do
   print(dice[i])
